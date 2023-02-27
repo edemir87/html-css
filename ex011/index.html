@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tentar abrir esse site em vários dispositivos diferentes ou simplimente aumente e diminua  o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt=" imagem flexível">
+    </picture>
+    <h1>Adicionando áudio</h1>
+    <p>Você pode inserir um áudio no HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="audio/What You Gonna Be - NEFFEX.mp3" type="audio/mpeg">
+        <p>Caso não consiga exercutar o áudio você pode <a href="audio/What You Gonna Be - NEFFEX.mp3" target="_blank " download="audio/What You Gonna Be - NEFFEX.mp3">baixar aqui</a></p>
+        
+    </audio>
+    <h1>Adiciinando um video </h1>
+    <p>Você pode inserir um vídeo com HTML5</p>
+    <video width="560" height="500" poster="imagens/aviao.jpg" controls   >
+        <source src="video/pexels-ana-benet-8242842.mp4" type="video/mp4">
+    </video>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    
+</body>
+</html>
