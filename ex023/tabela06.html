@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th:nth-child(even) {
+            background-color: rgb(228,228,288);
+        }
+        #container {
+            overflow-x: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, numquam laboriosam eius cumque hic iusto temporibus ut error. Libero omnis molestias corrupti quisquam odio neque cum culpa adipisci, possimus quasi?</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>celular</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>4</td>
+                    <td>60</td>
+                    <td>34</td>
+                    <td>71</td>
+                    <td>50</td>
+                    <td>54</td>
+                    <td>61</td>
+                    <td>63</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    
+</body>
+</html>
